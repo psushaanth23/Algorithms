@@ -1,24 +1,27 @@
+
 #include <bits/stdc++.h>
 
-#define LL				long long
-#define LD				long double
-#define x				first
-#define y 				second
-#define print_v(a)		for(vector<int>::iterator it=a.begin();it!=a.end();++it)cout<<*it<<"  ";
-#define print(a,n)		for(int f=0;f<n;f++)cout<<a[f]<<"  ";
-#define print_p(a,n)	for(int f=0;f<n;f++)cout<<a[f].x<<"  "<<a[f].y<<endl;
-#define pf(n)			cout<<n<<"  ";
-#define NL				cout<<endl;
-#define all(a)			a.begin(),a.end()
-#define s(n)			scanf("%d",&n);
-#define sll(n)			scanf("%lld",&n);
-#define sld(n)			scanf("%lf",&n);
-#define ss(n)			scanf("%s",n);
-#define pb(n)			push_back(n)
-#define mp(a,b)			make_pair(a,b)
-#define MOD				1000000007
-#define N				100005
-#define M 				1000006
+#define LL              long long
+#define LD              long double
+#define NL              cout<<endl;
+#define pf(n)           cout<<n<<"  ";
+#define pn(n)           pf(n)NL
+#define xx              first
+#define yy              second
+#define FOR(i,n)        for(int (i)=0;(i)<(n);++(i))
+#define print(a,n)      FOR(F,n)pf(a[F]);NL;
+#define print2(a,n)     FOR(F,n){FOR(G,n)pf(a[F][G]);NL}
+#define all(a)          a.begin(),a.end()
+#define pb(n)           push_back(n)        
+#define eb(n)           emplace_back(n)
+#define mp(a,b)         make_pair(a,b)
+#define stl(z)          for(auto const F: z){pn(F)}             //F is read only
+#define stl2(z)         for(auto const F: z){pf(F.xx)pn(F.yy)}
+#define MOD             1000000007
+#define N               100005
+#define M               1000006
+#define chk             pn(debug++)
+#define EXEC 
 
 using namespace std;
 
